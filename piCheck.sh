@@ -14,6 +14,7 @@ done | tee -a "microcenter.raspberry.pi.zero.csv"
 exit
 
 ##################
+# Need: add option to refresh store list
 # get stores from option values
 # cat x | sed 's_<\/option>_\n_g;  s/<option value=\"//g; s/" selected="//g;  s/\">/\t/g;' | sort | grep -v "Web Store" | sed 's/\t.*/ /; s/^0//;' | tr '\n' ' '
 
